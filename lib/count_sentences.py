@@ -16,22 +16,25 @@ class MyString:
             print("The value must be a string.")
 
     def is_sentence(self):
-        if '.' in self._value:
-            return True
-        else:
-            return False
+        # if '.' in self._value:
+        #     return True
+        # else:
+        #     return False
+        return (True if "." in self._value else False)
 
     def is_question(self):
-        if '?' in self._value:
-            return True
-        else:
-            return False
+        # if '?' in self._value:
+        #     return True
+        # else:
+        #     return False
+        return (True if "?" in self._value else False)
 
     def is_exclamation(self):
-        if '!' in self._value:
-            return True
-        else:
-            return False
+        # if '!' in self._value:
+        #     return True
+        # else:
+        #     return False
+        return (True if "!" in self._value else False)
 
     def count_sentences(self):
        
